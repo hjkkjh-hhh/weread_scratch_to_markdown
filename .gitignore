@@ -3,6 +3,9 @@ test*
 setup*.py
 wrs-temp/
 *.pdf
+*.zip
+*.md
+!README.md
 dist/
 build/
 *egg-info/
@@ -10,3 +13,9 @@ temp*.py
 *.bat
 test
 .vscode
+edge_profile/
+venv/
+input_md/
+output_md/
+chaogu_md/
+baoxian_md/
