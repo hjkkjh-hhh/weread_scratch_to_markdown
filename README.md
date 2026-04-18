@@ -17,8 +17,8 @@
 
 ```shell
 # 1. 克隆项目
-git clone https://github.com/YourUsername/WeReadScan.git
-cd WeReadScan
+git clone https://github.com/hjkkjh-hhh/weread_scratch_to_markdown.git
+cd weread_scratch_to_markdown
 
 # 2. 创建并激活虚拟环境 (推荐)
 python -m venv venv

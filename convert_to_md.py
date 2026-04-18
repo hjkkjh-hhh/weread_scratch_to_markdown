@@ -93,6 +93,12 @@ def process_file(input_path, output_path):
         f.write('\n\n'.join(result))
 
 def batch_process(src_dir, dest_dir):
+    if not os.path.exists(src_dir):
+        os.makedirs(src_dir)
+        print(f"Created input directory: {src_dir}")
+        print("Please place your markdown files in the input_md directory and run again.")
+        return
+
     if not os.path.exists(dest_dir):
         os.makedirs(dest_dir)
         print(f"Created output directory: {dest_dir}")
